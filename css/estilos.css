@@ -1,0 +1,408 @@
+* {
+   margin: 0;
+   padding: 0;
+   webkit-box-sizing: border-box;
+   -moz-box-sizing:border-box;
+   box-sizing: border-box;
+
+}
+
+body {
+	font-family:"Open Sans", Arial, Sans-serif;
+	font-size: 16px;
+}
+
+.contenedor {
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+
+/*-------------HEADER-----------------*/
+
+header{
+	width: 100%;
+	background:url('../img/leute1920.jpg') #281a0c;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center 0;
+}
+
+header .contenedor {
+	position: relative;
+	height: 700px;
+}
+
+header .menu {
+	width: 100%;
+	text-align: right;
+}
+
+header .menu a {
+	color:#fff;
+	font-size: 20px;
+	font-weight: 300;
+	display: inline-block;
+	margin: 40px 20px;
+	text-decoration: none;
+	position: relative;
+}
+
+header .menu a:hover {
+ text-decoration: underline;
+}
+
+header .textos {
+	width: 100%;
+	color:#fff;
+	position: absolute;
+	top:50%;
+	margin-top: -52px;
+}
+
+header .textos .nombre {
+	 font-size: 50px;
+	 font-weight: 600;
+}
+
+header .textos .nombre span {
+	 font-weight: 300;
+}
+
+header .textos h3 {
+	font-weight:300;
+	font-size:25px;
+	font-style:italic;
+}
+
+/*---------MAIN----------------*/
+
+.main {
+	background: url('../img/dust.png');
+	background-repeat: repeat;
+}
+
+.main .über-uns .contenedor {
+             overflow: visible;
+             position: relative;
+
+}
+
+.main .über-uns .foto {
+              width:80%;
+              position:absolute;
+              left: 0;
+              top:-50px;
+              z-index: 0;
+              box-shadow: 0px  0px 15px rgba(0,0,0,.35);
+
+          }
+
+.main .über-uns .foto img {
+               vertical-align: top;
+               width: 100%;
+
+}
+
+.main .über-uns article {
+	        background: #fff;
+	        padding: 40px;
+	        width: 50%;
+	        position: relative;
+	        top:500px;
+	        z-index: 1;
+	        float: right;
+	        box-shadow: 0px  0px 15px rgba(0,0,0,.35);
+}
+
+.main .über-uns article h3 {
+	   font-size:50px;
+	   font-weight:300;
+	   margin-bottom:40px;
+}
+
+.main .über-uns article p{
+	   line-height:28px;
+	   margin-bottom:15px;
+	}
+
+.main .menü {
+	padding-top: 570px;
+	margin-bottom: 50px;
+}
+
+.main .menü .titulo {
+	font-size: 40px;
+	font-weight: 300;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.main .menü .contenedor-menü,
+.main .menü .contenedor-menü2 {
+	border: 1px solid #000;
+	background: transparent;
+	padding: 10px;
+	overflow: hidden;
+}
+
+
+.main .menü article {
+	width: 50%;
+	float: left;
+	padding: 20px;
+}
+
+.main .menü .categoria {
+	font-size: 22px;
+	font-weight: 700;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.main .menü .teller {
+	margin-bottom: 30px;
+	padding-bottom: 20px;
+	border-bottom: 4px dotted #000;
+	overflow: hidden;
+}
+
+.main .menü .name {
+	font-size: 20px;
+	margin-bottom: 15px;
+	float: left;
+}
+
+.main .menü .Preis {
+	 font-size: 20px;
+	margin-bottom: 15px;
+	float: right;
+}
+
+.main .menü .Beschreibung {
+	font-size: 16px;
+	color:#676767;
+	clear: both;
+}
+
+.main .galerie {
+	overflow: hidden;
+
+}
+
+.main .galerie .foto {
+	width: 25%;
+	float:right;
+}
+
+.main .galerie .foto img {
+	width:100%;
+	vertical-align:top;
+	opacity:.7;
+}
+
+.main .galerie .foto img:hover {
+      opacity: 1;
+      -webkit-trnsition:all .3s ease;
+      -o-transition:all .3s ease;
+      transition:all .3s ease;
+}
+
+.main .standort {
+	  background: #fff;
+	  padding: 60px 0;
+	  overflow: hidden;
+	  
+
+}
+
+.main .standort .titulo {
+	   text-align:center;
+	   font-size:40px;
+	   line-height:40px;
+	   font-weight:300;
+	   margin-bottom:40px;
+
+	}
+
+	.main .standort .Adresse {
+		float:left;
+		width:40%;
+		text-align:left;
+
+
+	}
+
+	.main .standort .Öffnungszeiten  {
+		float:right;
+		width:40%;
+		text-align:right;
+		overflow: hidden;
+	}
+
+	.main .standort .Adresse .Straße {
+		margin-bottom: 15px;
+	}
+
+	.main .standort .Öffnungszeiten h4 {
+		text-align:center;
+		margin-bottom:30px;
+
+	}
+
+	.main .standort .Öffnungszeiten .woche,
+	.main .standort .Öffnungszeiten	.wochenende {
+                      width: 50%;
+                      float: left;
+                      text-align: center;
+	}
+	
+	.main .map {
+		width: 100%;
+		overflow: hidden;
+	}
+ 
+	.main .map iframe {
+            width: 100%;
+            max-height: 600px;
+
+	}
+
+/*----------FOOTER-------------*/
+
+
+	footer .redes-sociales {
+	background: #000;
+	padding: 40px 0;
+
+}
+
+footer .redes-sociales .contenedor {
+	display: flex;
+	justify-content: center;
+}
+
+footer .redes-sociales a {
+	color: #fff;
+	text-align: center;
+	width: 100px;
+	display: block;
+	padding: 10px 0;
+	border-radius: 3px;
+	font-size: 25px;
+    margin: 0 10px;
+}
+
+footer .redes-sociales .twitter:hover {
+	background: #1da1f2;
+}
+
+footer .redes-sociales .facebook:hover {
+	background:#3b5998;
+
+}
+
+footer .redes-sociales .instagram:hover {
+	background:#405de6;
+
+}
+
+footer .redes-sociales .youtube:hover {
+	background:#cd201f;
+}
+
+footer {
+		background: #000;
+
+	} 
+
+	footer .copy {
+		text-align: center;
+		padding: 15px 0;
+		color:#fff;
+		padding-bottom: 25px;
+	}
+
+.icon{
+	color:red;
+}
+
+/*------------------MEDIAQUERIES--------------------*/
+
+@media screen and (max-width: 800px) {
+	header .contenedor {
+		position: static;
+		height: auto;
+}
+	header .textos {
+      position: static;
+      margin: 100px 0;
+}
+	header .menü {
+		text-align: center;
+}
+	header .menü a {
+		margin: 10px 20px;
+}
+	header .textos .name {
+		font-size: 30px;
+}
+	header .textos  h3 {
+        font-size: 18px;
+	}
+
+	.main .über-uns .foto {
+         width: 100%;
+         position: relative;
+	}
+
+	.main .über-uns article {
+		position: relative;
+		width: 100%;
+		top: -50px;
+		transform: translate(0px, 0);
+	}
+
+	.main .menü {
+		padding-top: 300px;
+	}
+
+	.main .menü  article {
+         width: 100%;
+	}
+
+	.main .galerie .foto {
+		width: 50%;
+	}
+
+	.main .map {
+		width: 80%;
+		margin: auto;
+	}
+
+}
+
+@media scree and (max-width:400px){
+      .main .über-uns article h3 {
+      	font-size: 34px;
+      	margin-bottom: 10px;
+      }
+
+      .main .menü article .nombre,
+      .main .menü article .Preis {
+      	font-size: 16px;
+      	line-height:16px;
+      }
+
+
+      .main .standort .Adresse{
+      	margin-bottom: 15px;
+      }
+
+      .main .standort .Adresse,
+      .main  .standort .Öffnungszeiten {
+      	width: 100%;
+      	text-align: center;
+      }
+} 
